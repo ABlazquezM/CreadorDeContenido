@@ -16,3 +16,8 @@ https://es.wikipedia.org/wiki/Bull_terrier
 https://es.wikipedia.org/wiki/Bulldog
 https://es.wikipedia.org/wiki/Bulldog_franc%C3%A9s
 https://es.wikipedia.org/wiki/Caniche
+https://es.wikipedia.org/wiki/Chihuahua_(perro)
+https://es.wikipedia.org/wiki/Chow_chow_(raza_de_perro)
+https://es.wikipedia.org/wiki/Cocker_spaniel_ingl%C3%A9s
+https://es.wikipedia.org/wiki/Collie_de_pelo_largo
+https://es.wikipedia.org/wiki/D%C3%A1lmata_(perro)
