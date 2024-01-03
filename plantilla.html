@@ -6,39 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 
-<body>
+<body class="custom-bg-class">
     <!-- Image and text -->
-   
-        <nav class="navbar navbar-light bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Basset_Hound_600.jpg/320px-Basset_Hound_600.jpg"
-                    alt="" class="img-fluid w-25  shadow-lg rounded" style="margin-left: 40px;">
-            </a>
-            <span class="navbar-text  display-6 text-white" style="margin-right: 60px;">
-                <!--Título-->
-            </span>
-        </nav>
-    
+
+    <nav class="navbar navbar-light bg-dark">
+        <a class="navbar-brand" href="Enlace a la web">
+            <img src="Imagen logo" alt="" class="img-fluid w-25  shadow-lg rounded" style="margin-left: 40px;">
+        </a>
+        <span class="navbar-text  display-6 text-white" style="margin-right: 60px;">
+            <!--Título-->
+        </span>
+    </nav>
+
 
     <div class="container mt-5">
         <div class="row">
-          <div class="col">
-            
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Basset_Hound_600.jpg/320px-Basset_Hound_600.jpg" class="img-fluid" style="width: 100%; height: auto;">
+            <div class="col">
+                <img src="Imagen principal" class="img-fluid" style="width: 100%; height: auto;">
+            </div>
+            <div class="col">
+                <p><!--Texto_Principal--></p>
 
-          </div>
-          <div class="col"> 
-            <p><!--Texto_Principal--></p>
-          </div>
+                <a class="btn btn-info" href="+info" role="button">+ Info</a>
+                
+            </div>
         </div>
-      </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <p><!--Texto_carrusel--></p>
+            </div>
+            <div class="col">
+                
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Imagen1" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagen2" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagen3" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
